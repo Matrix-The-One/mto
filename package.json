@@ -1,0 +1,20 @@
+{
+  "name": "matrix-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "keywords": [
+    "frontend",
+    "matrix"
+  ],
+  "homepage": "https://github.com/Matrix-The-One/matrix",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Matrix-The-One/matrix.git"
+  },
+  "license": "MIT",
+  "author": "Matrix-The-One",
+  "type": "module",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {}
+}
