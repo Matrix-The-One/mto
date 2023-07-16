@@ -1,20 +1,32 @@
 {
-  "name": "matrix-monorepo",
+  "name": "mto-monorepo",
   "version": "1.0.0",
   "private": true,
   "keywords": [
     "frontend",
-    "matrix"
+    "mto"
   ],
-  "homepage": "https://github.com/Matrix-The-One/matrix",
+  "homepage": "https://github.com/Matrix-The-One/mto",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Matrix-The-One/matrix.git"
+    "url": "https://github.com/Matrix-The-One/mto.git"
   },
   "license": "MIT",
   "author": "Matrix-The-One",
   "type": "module",
-  "scripts": {},
-  "dependencies": {},
-  "devDependencies": {}
+  "scripts": {
+    "changeset": "changeset",
+    "ci:publish": "pnpm changeset publish",
+    "clear:node_modules": "rimraf node_modules & rimraf packages/**/node_modules",
+    "reinstall": "pnpm run clear:node_modules && pnpm i",
+    "version-packages": "changeset version"
+  },
+  "dependencies": {
+    "mto-lint": "workspace:^"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2",
+    "rimraf": "^5.0.1"
+  }
 }
+

@@ -3,5 +3,4 @@ dist
 build
 LICENSE.md
 pnpm-lock.yaml
-pnpm-workspace.yaml
 packages/*/CHANGELOG.md

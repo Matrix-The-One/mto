@@ -1,3 +1,4 @@
+// https://prettier.io
 module.exports = {
   semi: false,
   printWidth: 100,
@@ -21,6 +22,12 @@ module.exports = {
         singleQuote: false,
       },
     },
+    {
+      files: ['*.(css|less|scss|sass|styl|stylus)'],
+      options: {
+        singleQuote: false,
+      },
+    },
   ],
   plugins: [
     require.resolve('prettier-plugin-packagejson'),
@@ -33,7 +40,7 @@ module.exports = {
     '^@?(ant|element)(.*)',
     '<THIRD_PARTY_MODULES>',
     '^@/(.*)',
-    '^[.]{1,2}/(.+(?<![.]css|less|scss|sass|styl)$)',
-    '^(.*).(css|less|scss|sass|styl)$',
+    '^[.]{1,2}/(.+(?<![.]css|less|scss|sass|styl|stylus)$)',
+    '^(.*).(css|less|scss|sass|styl|stylus)$',
   ],
 }

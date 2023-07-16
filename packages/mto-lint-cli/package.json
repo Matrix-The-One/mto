@@ -1,0 +1,19 @@
+{
+  "name": "mto-lint-cli",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [
+    "mto-lint-cli"
+  ],
+  "homepage": "https://github.com/Matrix-The-One/mto/blob/main/packages/mto-lint-cli/README.md",
+  "bugs": "https://github.com/Matrix-The-One/mto/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Matrix-The-One/mto.git",
+    "directory": "packages/mto-lint-cli"
+  },
+  "license": "MIT",
+  "author": "Matrix-The-One",
+  "dependencies": {}
+}
+

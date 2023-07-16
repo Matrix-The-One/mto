@@ -1,0 +1,19 @@
+{
+  "name": "mto",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [
+    "mto-cli"
+  ],
+  "homepage": "https://github.com/Matrix-The-One/mto/blob/main/packages/mto-cli/README.md",
+  "bugs": "https://github.com/Matrix-The-One/mto/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Matrix-The-One/mto.git",
+    "directory": "packages/mto-cli"
+  },
+  "license": "MIT",
+  "author": "Matrix-The-One",
+  "dependencies": {}
+}
+

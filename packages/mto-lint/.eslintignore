@@ -1,0 +1,9 @@
+# https://eslint.org/docs/latest/use/configure/ignore
+temp
+docs
+mock
+dist
+build
+public
+scripts
+coverage
