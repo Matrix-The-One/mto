@@ -1,6 +1,6 @@
 {
   "name": "mto-lint",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A configuration library containing ESlint, Stylelint, Prettier, TSConfig, Editorconfig, Commitlint, Gitignore.",
   "keywords": [
     "eslint",
