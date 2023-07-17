@@ -15,9 +15,6 @@ module.exports = {
     ecmaVersion: 'latest',
     ecmaFeatures: { jsx: true },
     requireConfigFile: false,
-    babelOptions: {
-      presets: ['@babel/preset-env'],
-    },
   },
   rules: {
     'no-eval': 0,

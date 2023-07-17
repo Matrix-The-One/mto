@@ -1,6 +1,6 @@
 {
   "name": "mto-lint",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A configuration library containing ESlint, Stylelint, Prettier, TSConfig, Editorconfig, Commitlint, Gitignore.",
   "keywords": [
     "eslint",
@@ -21,9 +21,8 @@
   },
   "license": "MIT",
   "author": "Matrix-The-One",
-  "peerDependencies": {
+  "dependencies": {
     "@babel/eslint-parser": "^7.22.9",
-    "@babel/preset-env": "^7.22.9",
     "@babel/preset-react": "^7.22.5",
     "@trivago/prettier-plugin-sort-imports": "^4.1.1",
     "@typescript-eslint/eslint-plugin": "^5.62.0",

@@ -14,9 +14,6 @@ module.exports = {
     sourceType: 'module',
     ecmaVersion: 'latest',
     requireConfigFile: false,
-    babelOptions: {
-      presets: ['@babel/preset-env'],
-    },
   },
   rules: {
     'no-eval': 0,

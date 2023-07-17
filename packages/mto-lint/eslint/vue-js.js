@@ -15,9 +15,6 @@ module.exports = {
     ecmaVersion: 'latest',
     ecmaFeatures: { jsx: true },
     requireConfigFile: false,
-    babelOptions: {
-      presets: ['@babel/preset-env'],
-    },
   },
   rules: {
     'no-eval': 0,
@@ -34,9 +31,6 @@ module.exports = {
         ecmaFeatures: { jsx: true },
         parser: '@babel/eslint-parser',
         requireConfigFile: false,
-        babelOptions: {
-          presets: ['@babel/preset-env'],
-        },
       },
       rules: {
         'vue/no-useless-mustaches': 1,
