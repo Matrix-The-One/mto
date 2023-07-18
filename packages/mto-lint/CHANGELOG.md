@@ -1,10 +1,16 @@
 # mto-lint
 
+## 0.1.5
+
+### Minor Changes
+
+- fix: mto-lint @typescript-eslint/parser
+
 ## 0.1.4
 
 ### Patch Changes
 
-- fix: tsconfig error 
+- fix: tsconfig error
 - chore: add lint config type
 
 ## 0.1.3

@@ -30,8 +30,7 @@ module.exports = {
       parserOptions: {
         sourceType: 'module',
         ecmaVersion: 'latest',
-        project: 'tsconfig.json',
-        tsconfigRootDir: __dirname,
+        project: true,
       },
       rules: {
         '@typescript-eslint/ban-ts-comment': 0,

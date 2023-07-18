@@ -61,8 +61,7 @@ module.exports = {
         sourceType: 'module',
         ecmaVersion: 'latest',
         ecmaFeatures: { jsx: true },
-        project: 'tsconfig.json',
-        tsconfigRootDir: __dirname,
+        project: true,
       },
       rules: {
         'react-hooks/exhaustive-deps': 0,

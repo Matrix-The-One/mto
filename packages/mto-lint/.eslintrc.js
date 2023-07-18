@@ -81,9 +81,8 @@ module.exports = {
         ecmaVersion: 'latest',
         ecmaFeatures: { jsx: true },
         parser: '@typescript-eslint/parser',
-        project: 'tsconfig.json',
-        tsconfigRootDir: __dirname,
         extraFileExtensions: ['.vue'],
+        project: true,
       },
       rules: {
         'vue/no-useless-mustaches': 1,
