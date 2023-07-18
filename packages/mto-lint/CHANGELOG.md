@@ -1,5 +1,12 @@
 # mto-lint
 
+## 0.1.4
+
+### Patch Changes
+
+- fix: tsconfig error 
+- chore: add lint config type
+
 ## 0.1.3
 
 ### Fixed Changes

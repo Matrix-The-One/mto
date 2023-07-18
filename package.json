@@ -18,14 +18,13 @@
     "changeset": "changeset",
     "ci:publish": "changeset publish",
     "ci:version": "changeset version",
-    "clear:node_modules": "rimraf node_modules & rimraf packages/**/node_modules",
-    "reinstall": "pnpm run clear:node_modules && pnpm i"
+    "clear:node_modules": "npx rimraf node_modules & npx rimraf packages/**/node_modules",
+    "ri": "pnpm run clear:node_modules && pnpm i"
   },
   "dependencies": {
     "mto-lint": "workspace:^"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.26.2",
-    "rimraf": "^5.0.1"
+    "@changesets/cli": "^2.26.2"
   }
 }

@@ -1,3 +1,7 @@
+/**
+ * @link https://stylelint.io
+ * @type {import('stylelint').Config}
+ */
 module.exports = {
   customSyntax: 'postcss-html',
   extends: ['stylelint-config-standard', 'stylelint-config-html', 'stylelint-config-recess-order'],

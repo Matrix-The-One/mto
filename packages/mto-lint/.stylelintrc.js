@@ -1,4 +1,7 @@
-// https://stylelint.io
+/**
+ * @link https://stylelint.io
+ * @type {import('stylelint').Config}
+ */
 module.exports = {
   plugins: ['stylelint-declaration-block-no-ignored-properties'],
   rules: {

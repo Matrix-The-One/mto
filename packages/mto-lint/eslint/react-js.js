@@ -1,3 +1,7 @@
+/**
+ * @link https://eslint.org
+ * @type {import('eslint').Linter.Config}
+ */
 module.exports = {
   root: true,
   env: {

@@ -1,4 +1,7 @@
-// https://prettier.io
+/**
+ * @link https://prettier.io
+ * @type {import('prettier').Config}
+ */
 module.exports = {
   semi: false,
   printWidth: 100,
