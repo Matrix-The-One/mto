@@ -1,8 +1,14 @@
 # mto-lint
 
+## 0.1.3
+
+### Fixed Changes
+
+- fix: @babel/preset-react error
+
 ## 0.1.2
 
-### Patch Changes
+### Fixed Changes
 
 - fix: @babel/preset-env error
 

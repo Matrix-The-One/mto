@@ -16,10 +16,10 @@
   "type": "module",
   "scripts": {
     "changeset": "changeset",
-    "ci:publish": "pnpm changeset publish",
+    "ci:publish": "changeset publish",
+    "ci:version": "changeset version",
     "clear:node_modules": "rimraf node_modules & rimraf packages/**/node_modules",
-    "reinstall": "pnpm run clear:node_modules && pnpm i",
-    "version-packages": "changeset version"
+    "reinstall": "pnpm run clear:node_modules && pnpm i"
   },
   "dependencies": {
     "mto-lint": "workspace:^"
@@ -29,4 +29,3 @@
     "rimraf": "^5.0.1"
   }
 }
-
