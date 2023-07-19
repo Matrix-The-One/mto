@@ -1,5 +1,11 @@
 # mto-lint
 
+## 0.2.0
+
+### Minor Changes
+
+- refactor: vue does not use ts
+
 ## 0.1.5
 
 ### Minor Changes
