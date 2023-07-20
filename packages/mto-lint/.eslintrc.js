@@ -75,18 +75,24 @@ module.exports = {
     {
       files: ['**/*.vue'],
       parser: 'vue-eslint-parser',
-      extends: ['standard', 'plugin:vue/vue3-recommended', 'prettier'],
+      extends: ['standard-with-typescript', 'plugin:vue/vue3-recommended', 'prettier'],
       parserOptions: {
         sourceType: 'module',
         ecmaVersion: 'latest',
         ecmaFeatures: { jsx: true },
-        parser: '@babel/eslint-parser',
-        requireConfigFile: false,
+        parser: '@typescript-eslint/parser',
+        extraFileExtensions: ['.vue'],
+        project: true,
       },
       rules: {
         'vue/no-useless-mustaches': 1,
         'vue/multi-word-component-names': 0,
         'vue/prefer-separate-static-class': 1,
+        '@typescript-eslint/ban-ts-comment': 0,
+        '@typescript-eslint/prefer-ts-expect-error': 0,
+        '@typescript-eslint/no-unsafe-member-access': 0,
+        '@typescript-eslint/strict-boolean-expressions': 0,
+        '@typescript-eslint/explicit-function-return-type': 0,
       },
     },
     {
