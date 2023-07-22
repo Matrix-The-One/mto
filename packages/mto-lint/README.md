@@ -1,5 +1,5 @@
 <p align="center">
-  中文 | <a href="../README.en-US.md">English</a> 
+  中文 | <a href="./README.en-US.md">English</a> 
 </p>
 
 <p align="center">
@@ -10,7 +10,7 @@
 
 # mto-lint
 
-一个包含 [ESlint], [Stylelint], [Prettier], [TSConfig], [Editorconfig], [Commitlint], [Gitignore] 的配置库。
+一个包含 [ESlint], [Stylelint], [Prettier], [TSConfig], [Editorconfig], [Commitlint], [Gitignore] 配置的库。
 
 ## 使用
 
@@ -28,6 +28,7 @@ Copyright (c) 2023 Matrix-The-One
 [tsconfig]: https://www.typescriptlang.org/tsconfig
 [editorconfig]: https://editorconfig.org
 [commitlint]: https://commitlint.js.org
+[husky]: https://typicode.github.io/husky
 [gitignore]: https://git-scm.com/docs/gitignore
 [vscode-eslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 [vscode-stylelint]: https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint

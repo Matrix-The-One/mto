@@ -1,7 +1,7 @@
 {
   "name": "mto-lint",
-  "version": "0.2.0",
-  "description": "A configuration library containing ESlint, Stylelint, Prettier, TSConfig, Editorconfig, Commitlint, Gitignore.",
+  "version": "0.3.0",
+  "description": "A library containing ESlint, Stylelint, Prettier, TSConfig, Editorconfig, Commitlint, Gitignore configurations.",
   "keywords": [
     "eslint",
     "stylelint",
@@ -21,6 +21,19 @@
   },
   "license": "MIT",
   "author": "Matrix-The-One",
+  "scripts": {
+    "commit": "git add . && npx cz-customizable",
+    "lint-staged": "lint-staged --quiet",
+    "lint:eslint": "eslint src --fix --quiet",
+    "lint:prettier": "prettier src -w -c -u",
+    "lint:stylelint": "stylelint src/**/*.{css,less,scss,styl,vue,svelte} --fix -q",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "**/*.{js,ts,jsx,tsx,vue,svelte}": "eslint --fix --quiet",
+    "**/*.{css,less,scss,styl,vue,svelte}": "stylelint --fix -q",
+    "*": "prettier -w -c -u"
+  },
   "dependencies": {
     "@babel/eslint-parser": "^7.22.9",
     "@babel/preset-react": "^7.22.5",
@@ -52,5 +65,13 @@
     "stylelint-config-standard-scss": "^10.0.0",
     "stylelint-declaration-block-no-ignored-properties": "^2.7.0",
     "vue-eslint-parser": "^9.3.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.7",
+    "@commitlint/config-conventional": "^17.6.7",
+    "@commitlint/types": "^17.4.4",
+    "cz-customizable": "^7.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3"
   }
 }

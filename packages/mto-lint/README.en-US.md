@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="../README.md">中文</a> | English
+  <a href="./README.md">中文</a> | English
 </p>
 
 <p align="center">
@@ -10,7 +10,7 @@
 
 # mto-lint
 
-A configuration library containing [ESlint], [Stylelint], [Prettier], [TSConfig], [Editorconfig], [Commitlint], [Gitignore].
+A library containing [ESlint], [Stylelint], [Prettier], [TSConfig], [Editorconfig], [Commitlint], [Gitignore] configurations.
 
 ## Usage
 
@@ -28,6 +28,7 @@ Copyright (c) 2023 Matrix-The-One
 [tsconfig]: https://www.typescriptlang.org/tsconfig
 [editorconfig]: https://editorconfig.org
 [commitlint]: https://commitlint.js.org
+[husky]: https://typicode.github.io/husky
 [gitignore]: https://git-scm.com/docs/gitignore
 [vscode-eslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 [vscode-stylelint]: https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint
