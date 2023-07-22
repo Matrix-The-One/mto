@@ -27,7 +27,7 @@
     "lint:eslint": "eslint src --fix --quiet",
     "lint:prettier": "prettier src -w -c -u",
     "lint:stylelint": "stylelint src/**/*.{css,less,scss,styl,vue,svelte} --fix -q",
-    "prepare": "husky install"
+    "postinstall": "husky install"
   },
   "lint-staged": {
     "**/*.{js,ts,jsx,tsx,vue,svelte}": "eslint --fix --quiet",
